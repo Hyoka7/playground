@@ -1,0 +1,45 @@
+version = 1
+revision = 3
+requires-python = ">=3.10"
+
+[[package]]
+name = "playground"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "pyccolo" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "pyccolo", specifier = ">=0.0.96" }]
+
+[[package]]
+name = "pyccolo"
+version = "0.0.96"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "traitlets" },
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/08/41/c6154b38c3f6f945c01ab4f5999d32c8048aa5f4e9b6b0d270857e002479/pyccolo-0.0.96.tar.gz", hash = "sha256:c12a8014109069eca4a92f93379328cb710200ad3e4a5810eecc2d4c19f76f36", size = 147499, upload-time = "2026-10-09T22:03:40.949Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/7a/b0/2a18b5bbcc73bc1a3da6bf0fdabdc3ba93db5c4da2a6ee0dee4e9529bcf4/pyccolo-0.0.96-py2.py3-none-any.whl", hash = "sha256:435b5fd7f0785338bbb78222ff95b9c0ec2ec98a0e18ef1364534c012be7463a", size = 131957, upload-time = "2026-10-09T22:03:39.443Z" },
+]
+
+[[package]]
+name = "traitlets"
+version = "5.16.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/2c/2e/a7fbfe268c8a3b32546930c0297c101d65a4a14c304ad5790a9f478f0e4e/traitlets-5.16.1.tar.gz", hash = "sha256:ed900c2b631aa3a112811139fa97b8d2c3bad5e989656bba4b7e52c7852c18c1", size = 166137, upload-time = "2026-08-03T08:32:36.848Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/ad/66/0d785f0bc5e4315a96c989bb476d0fc07ea4f85132550c7b156ca2035d52/traitlets-5.16.1-py3-none-any.whl", hash = "sha256:f775618166caa0396c8e337099240f2bd3e5e917d203b2e6fbe21a58d3cb1f6b", size = 86211, upload-time = "2026-08-03T08:32:34.48Z" },
+]
+
+[[package]]
+name = "typing-extensions"
+version = "4.16.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/f6/cc/6253133b5bb138fc3306cebfbda2c520f545d36b5be2c7255cc528bb45d6/typing_extensions-4.16.0.tar.gz", hash = "sha256:dc983d19a509c94dba722ee6abd33940f7c05a89e243c47e907eb4db6f1a43e5", size = 113555, upload-time = "2026-07-02T08:40:05.92Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl", hash = "sha256:481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8", size = 45571, upload-time = "2026-07-02T08:40:04.659Z" },
+]
